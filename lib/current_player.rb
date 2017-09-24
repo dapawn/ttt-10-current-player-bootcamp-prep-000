@@ -1,6 +1,6 @@
 def turn_count(board)
   cnt = 0
-  board.each{ |position|  position != " " ? cnt += 1}
+  board.each{ |position|  position != " " ? cnt += 1 :}
   end
   return cnt
 end
